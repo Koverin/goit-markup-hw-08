@@ -1,0 +1,40 @@
+// Переменные
+@import "./utils/var";
+// Базовые стили
+@import "./base/base";
+// Сброс стилей
+@import "./base/reset";
+// Скрытый заголовок
+@import "./utils/visually-hidden";
+// Контейнер
+@import "./base/container";
+// Все стили
+@import "./components/header";
+// Logo
+@import "./components/logo";
+// Hero
+@import "./components/hero";
+// Модальное окно
+@import "./components/backdrop";
+// Форма регистрации
+@import "./components/registration";
+// Секция организация
+@import "./components/organization";
+// Фото лист
+@import "./components/photo-list";
+// Карточки команды
+@import "./components/team-card";
+// Иконки карточек команды
+@import "./components/icon-team-card";
+// Постоянные клиенты
+@import "./components/clients";
+// Footer
+@import "./components/footer";
+// Footer form
+@import "./components/footer-form";
+// Portfolio-page
+@import "./components/portfolio-page";
+// Portfolio-list-bnt
+@import "./components/portfolio-list-btn";
+// Portfolio-card-set
+@import "./components/portfolio-card-set";

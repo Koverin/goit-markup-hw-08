@@ -1,0 +1,68 @@
+.section {
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/mainhero-bg.jpg/Img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: var(--headfooter-bg-cl);
+}
+
+.section__conteiner {
+  text-align: center;
+}
+
+.section__title {
+  display: inline-block;
+  flex-wrap: wrap;
+  width: 696px;
+  margin-bottom: 30px;
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-bg-cl);
+}
+
+.section__btn {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 32px;
+  min-width: 216px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--additional-cl);
+  color: var(--main-bg-cl);
+  border-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+
+  transition: background-color var(--timing-function),
+    box-shadow var(--timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--active-btn-cl);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+}

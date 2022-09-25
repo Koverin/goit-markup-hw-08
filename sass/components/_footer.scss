@@ -1,0 +1,123 @@
+.footer-conteiner {
+  display: flex;
+  align-items: baseline;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-address {
+  margin-right: 70px;
+}
+
+.address-link {
+  font-family: var(--Roboro-txt);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: var(--main-bg-cl);
+  background-color: var(--headfooter-bg-cl);
+  text-decoration: none;
+}
+
+.footer-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  text-decoration: none;
+  color: var(--subtext-color);
+
+  transition: color var(--timing-function);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--additional-cl);
+}
+
+.logo-text {
+  font-family: var(--Raleway-txt);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  text-decoration: none;
+  color: var(--main-bg-cl);
+}
+
+.footer-logo-link {
+  margin-bottom: 20px;
+  color: var(--additional-cl);
+}
+
+.footer-list {
+  width: 231px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  &-item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+
+.footer {
+  background-color: var(--headfooter-bg-cl);
+}
+
+.footer-title {
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-family: var(--Roboro-txt);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--main-bg-cl);
+}
+
+.footer-list-icon {
+  display: flex;
+  gap: 10px;
+
+  margin: 0;
+}
+
+.footer-link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+
+  transition: background-color var(--timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--additional-cl);
+  }
+}
+
+.footer-socials-icon {
+  fill: var(--main-bg-cl);
+}
+
+.footer-item-icon {
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.socials-conteiner {
+  width: 206px;
+  margin-right: 93px;
+}
+
+.address {
+  margin-top: 20px;
+}
