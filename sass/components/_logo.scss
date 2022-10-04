@@ -1,3 +1,4 @@
+// Header-logo
 .logo,
 .logo__text {
   padding-top: 24px;
@@ -7,6 +8,16 @@
   font-size: 26px;
   line-height: calc(31 / 26);
   text-decoration: none;
+
+  @media screen and (min-width: 480px) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
 }
 
 .logo__text {
@@ -18,8 +29,38 @@
   margin-right: 93px;
   width: 145px;
   color: var(--logo-text-cl);
+
+  @media screen and (max-width: 1199px) {
+    margin-right: 87px;
+  }
 }
 
 .header__logo {
+  color: #ffffff;
+}
+
+// footer-logo
+
+.footer-logo,
+.footer-text {
+  // padding-top: 24px;
+  // padding-bottom: 25px;
+  font-family: var(--Raleway-txt);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  text-decoration: none;
+
+  @media screen and (max-width: 1199px) {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+  }
+}
+
+.footer-text {
+  color: var(--additional-cl);
+}
+
+.footer-logo {
   color: #ffffff;
 }

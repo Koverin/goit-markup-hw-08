@@ -5,10 +5,27 @@
   margin-top: 0;
   margin-bottom: 0;
   margin-bottom: 34px;
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    max-width: 326px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 8px;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-bottom: 30px;
+  }
 }
 
 .section-port__item:not(:last-child) {
-  margin-right: 8px;
+  @media screen and (min-width: 768px) {
+    margin-right: 8px;
+  }
 }
 
 .section-port__btn {
