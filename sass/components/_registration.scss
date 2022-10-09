@@ -15,6 +15,10 @@
   @media screen and (min-width: 480px) and (max-width: 1199px) {
     line-height: calc(30 / 20);
   }
+
+  @media screen and (max-width: 479px) {
+    font-size: 15px;
+  }
 }
 
 .registration__group {
@@ -66,6 +70,10 @@
   &:focus + .registration__icon {
     fill: var(--additional-cl);
   }
+
+  @media screen and (max-width: 479px) {
+    height: 35px;
+  }
 }
 
 .registration__icon {
@@ -103,6 +111,10 @@
 
   &:focus {
     border-color: var(--additional-cl);
+  }
+
+  @media screen and (max-width: 479px) {
+    height: 100px;
   }
 }
 
@@ -147,10 +159,14 @@
 
   user-select: none;
 
-  @media screen and (min-width: 480px) and (max-width: 1199px) {
+  @media screen and (max-width: 1199px) {
     font-size: 12px;
     line-height: calc(14 / 12);
   }
+
+  // @media screen and (max-width: 479px) {
+  //   font-size: 12px;
+  // }
 }
 
 .checkbox__link {
@@ -162,4 +178,9 @@
   margin: 0 auto;
   padding: 10px 52px;
   min-width: 200px;
+
+  @media screen and (max-width: 479px) {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
 }
