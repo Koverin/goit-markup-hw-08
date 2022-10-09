@@ -88,6 +88,10 @@
   text-decoration: none;
 
   color: #2196f3;
+
+  @media screen and (max-width: 479px) {
+    font-size: 26px;
+  }
 }
 
 .mobile-contacts__link--mail {
@@ -151,4 +155,8 @@
   letter-spacing: 0.02em;
   color: #2196f3;
   text-decoration: none;
+
+  @media screen and (max-width: 479px) {
+    font-size: 12px;
+  }
 }
